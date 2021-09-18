@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-from cs50 import SQL
-from flask import Flask, flash, jsonify, redirect, render_template, request, session
-
-def hello():
-    print("Hello!")
-
-hello()
-=======
 import os
 
 from cs50 import SQL
@@ -75,7 +66,15 @@ def index():
 
     return render_template("index.html", stocks=stocks, user_cash=user_cash[0], total_cash=total_cash)
 
+
+
+
+
 @app.route("/")
 def index():
     return "hello, world"
->>>>>>> 8155d2f8f503a2b10364ec47cf05654aeb0a6a30
+
+def hello():
+    print("Hello!")
+
+hello()
